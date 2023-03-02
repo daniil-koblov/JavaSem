@@ -1,7 +1,11 @@
 package JavaSem1;
 
+import java.time.LocalDateTime;
+
 public class JavaSem11 {
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+        LocalDateTime nowDate = LocalDateTime.now();
+        System.out.println(nowDate);
+        System.out.println(LocalDateTime.now().getDayOfYear());
     }
 }
