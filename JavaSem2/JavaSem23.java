@@ -24,7 +24,7 @@ public class JavaSem23{
             } catch (Exception e) {
                 fileToSave.createNewFile();  
             }
-            FileWriter writeToFile = new FileWriter(pathFile);
+            FileWriter writeToFile = new FileWriter(pathFile);  // или "new FileWriter(pathFile,true);" если нужно добавлять с записанному.
             writeToFile.write(inputString);
             writeToFile.close();
         } catch (Exception e) {
