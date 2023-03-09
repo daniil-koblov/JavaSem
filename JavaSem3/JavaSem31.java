@@ -14,5 +14,7 @@ public class JavaSem31 {
         System.out.println(numbers);
         Collections.sort(numbers);
         System.out.println(numbers);
+        Collections.reverse(numbers);
+        System.out.println(numbers);
     }
 }
